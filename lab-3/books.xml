@@ -1,0 +1,14 @@
+<?xml version="1.0">
+<!DOCTYPE books system "books.dtd">
+<books>
+    <book>
+        <title>DEEPU</title>
+        <author>Naruto</author>
+        <pname>Google</pname>
+    </book>
+    <book>
+        <title>Dileep</title>
+        <author>itachii</author>
+        <pname>yahoo</pname>
+    </book>
+</books>

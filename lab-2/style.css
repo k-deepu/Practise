@@ -1,0 +1,24 @@
+.dropdown{
+    display: block;
+    background-color: pink;
+}
+.dropdown a{
+    padding: 0px 20px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aqua;
+}
+.dropdown-content a{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+.dropdown-content a:hover{
+    background-color: aquamarine;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}

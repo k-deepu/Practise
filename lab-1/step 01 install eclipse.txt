@@ -1,0 +1,6 @@
+step 01: install eclipse
+step 02: install java EE 
+step 03: Download Apache Tomcat and extract on the desktop
+step 04: create a dynamic web project 
+step 05: initialize the tomcat sever and change the port number.
+step 06: initialize the html file and run the file on tomcat server.

@@ -1,0 +1,74 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 600px; /* Fixed width for the slides */
+    height: 400px; /* Fixed height for the slides */
+    overflow: hidden; /* Ensures content outside the container is hidden */
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images cover the slide area without distortion */
+    display: block;
+    margin: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+    border: none;
+    outline: none;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5); /* Optional for better visibility */
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.dot-container {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active {
+    background-color: #717171;
+}
